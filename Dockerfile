@@ -1,6 +1,6 @@
 FROM ruby:3.1.2
 
-RUN apt-get update -qq && apt-get install -y nodejs postgresql-client npm
+RUN apt-get update -qq && apt-get install -y nodejs npm
 RUN npm i -g yarn && yarn
 
 RUN mkdir /Rails_project
@@ -9,6 +9,7 @@ COPY Gemfile /Rails_project/Gemfile
 COPY Gemfile.lock /Rails_project/Gemfile.lock
 RUN bundle install
 COPY . /Rails_project
+RUN rails webpacker:install
 
 # Add a script to be executed every time the container starts.
 COPY entrypoint.sh /usr/bin/
