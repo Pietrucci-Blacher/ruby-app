@@ -27,14 +27,29 @@ class PagesController < ApplicationController
       session[:destination1] = params[:destination1]
       session[:destination2] = params[:destination2]
 
-      #if params[:vehicule] == "Voiture"
-        #@consommation = 1 + 1
-        #redirect_to :action => 'index'
-      #end
-
       case params[:vehicule]
+      when "TGV"
+        @consommation = distance.to_i*0.002
+        render 'pages/index'
+
+      when "Voiture électrique"
+        @consommation = distance.to_i*0.02
+        render 'pages/index'
+
       when "Voiture"
-        @consommation = 1*0.19
+        @consommation = distance.to_i*0.19
+        render 'pages/index'
+
+      when "Scooter"
+        @consommation = distance.to_i*0.062
+        render 'pages/index'
+
+      when "Moto"
+        @consommation = distance.to_i*0.17
+        render 'pages/index'
+
+      when "Avion"
+        @consommation = distance.to_i*0.13
         render 'pages/index'
       end
     end

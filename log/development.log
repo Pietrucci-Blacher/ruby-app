@@ -24403,3 +24403,2414 @@ Require stack:
 Completed 200 OK in 1852ms (Views: 1355.4ms | Allocations: 8302)
 
 
+Started GET "/calculate?destination1=paris&destination2=marseille&vehicule=Voiture" for 192.168.80.1 at 2022-06-29 19:56:13 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/Rails_project/app/controllers/pages_controller.rb:40: syntax error, unexpected `when', expecting `end'
+      when "Bus"
+      ^~~~
+):
+  
+app/controllers/pages_controller.rb:40: syntax error, unexpected `when', expecting `end'
+app/controllers/pages_controller.rb:40: syntax error, unexpected `when', expecting `end'
+app/controllers/pages_controller.rb:40: syntax error, unexpected `when', expecting `end'
+Started GET "/index" for 192.168.80.1 at 2022-06-29 19:56:30 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/Rails_project/app/controllers/pages_controller.rb:40: syntax error, unexpected `when', expecting `end'
+      when "Bus"
+      ^~~~
+/Rails_project/app/controllers/pages_controller.rb:47: syntax error, unexpected `end', expecting end-of-input):
+  
+app/controllers/pages_controller.rb:40: syntax error, unexpected `when', expecting `end'
+app/controllers/pages_controller.rb:47: syntax error, unexpected `end', expecting end-of-input
+app/controllers/pages_controller.rb:40: syntax error, unexpected `when', expecting `end'
+app/controllers/pages_controller.rb:47: syntax error, unexpected `end', expecting end-of-input
+app/controllers/pages_controller.rb:40: syntax error, unexpected `when', expecting `end'
+app/controllers/pages_controller.rb:47: syntax error, unexpected `end', expecting end-of-input
+Started GET "/index" for 192.168.80.1 at 2022-06-29 19:56:33 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/Rails_project/app/controllers/pages_controller.rb:40: syntax error, unexpected `when', expecting `end'
+      when "Bus"
+      ^~~~
+/Rails_project/app/controllers/pages_controller.rb:47: syntax error, unexpected `end', expecting end-of-input):
+  
+app/controllers/pages_controller.rb:40: syntax error, unexpected `when', expecting `end'
+app/controllers/pages_controller.rb:47: syntax error, unexpected `end', expecting end-of-input
+app/controllers/pages_controller.rb:40: syntax error, unexpected `when', expecting `end'
+app/controllers/pages_controller.rb:47: syntax error, unexpected `end', expecting end-of-input
+app/controllers/pages_controller.rb:40: syntax error, unexpected `when', expecting `end'
+app/controllers/pages_controller.rb:47: syntax error, unexpected `end', expecting end-of-input
+Started GET "/calculat" for 192.168.80.1 at 2022-06-29 20:09:30 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/calculat"):
+  
+Started GET "/calculate" for 192.168.80.1 at 2022-06-29 20:09:34 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/Rails_project/app/controllers/pages_controller.rb:40: syntax error, unexpected `when', expecting `end'
+      when "Bus"
+      ^~~~
+/Rails_project/app/controllers/pages_controller.rb:47: syntax error, unexpected `end', expecting end-of-input):
+  
+app/controllers/pages_controller.rb:40: syntax error, unexpected `when', expecting `end'
+app/controllers/pages_controller.rb:47: syntax error, unexpected `end', expecting end-of-input
+app/controllers/pages_controller.rb:40: syntax error, unexpected `when', expecting `end'
+app/controllers/pages_controller.rb:47: syntax error, unexpected `end', expecting end-of-input
+app/controllers/pages_controller.rb:40: syntax error, unexpected `when', expecting `end'
+app/controllers/pages_controller.rb:47: syntax error, unexpected `end', expecting end-of-input
+Started GET "/" for 192.168.80.1 at 2022-06-29 20:14:58 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-6.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-6.1.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 20.9ms | Allocations: 269)
+Completed 200 OK in 38ms (Views: 22.2ms | Allocations: 1312)
+
+
+Started GET "/" for 192.168.80.1 at 2022-06-29 20:15:08 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-6.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-6.1.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 11.2ms | Allocations: 260)
+Completed 200 OK in 13ms (Views: 12.4ms | Allocations: 1139)
+
+
+Started GET "/index" for 192.168.80.1 at 2022-06-29 20:15:12 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 800)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 116ms
+Built at: 06/29/2022 8:15:16 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 4008.5ms | Allocations: 12641)
+Completed 200 OK in 4015ms (Views: 4014.5ms | Allocations: 13953)
+
+
+Started GET "/calculate?destination1=paris&destination2=lille&vehicule=Bus" for 192.168.80.1 at 2022-06-29 20:15:26 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#calculate as HTML
+  Parameters: {"destination1"=>"paris", "destination2"=>"lille", "vehicule"=>"Bus"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 466)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 115ms
+Built at: 06/29/2022 8:15:29 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1435.7ms | Allocations: 4771)
+Completed 200 OK in 2361ms (Views: 1436.6ms | Allocations: 7357)
+
+
+Started GET "/index" for 192.168.80.1 at 2022-06-29 20:17:06 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 556)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 119ms
+Built at: 06/29/2022 8:17:08 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1541.7ms | Allocations: 5099)
+Completed 200 OK in 1545ms (Views: 1544.0ms | Allocations: 5856)
+
+
+Started GET "/calculate?destination1=paris&destination2=lille&vehicule=Bus" for 192.168.80.1 at 2022-06-29 20:17:24 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#calculate as HTML
+  Parameters: {"destination1"=>"paris", "destination2"=>"lille", "vehicule"=>"Bus"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 465)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 103ms
+Built at: 06/29/2022 8:17:26 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1481.4ms | Allocations: 4773)
+Completed 200 OK in 2022ms (Views: 1482.4ms | Allocations: 7343)
+
+
+Started GET "/index" for 192.168.80.1 at 2022-06-29 20:20:49 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 556)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 127ms
+Built at: 06/29/2022 8:20:51 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1567.8ms | Allocations: 5107)
+Completed 200 OK in 1574ms (Views: 1572.5ms | Allocations: 5864)
+
+
+Started GET "/calculate?destination1=paris&destination2=marseille&vehicule=Bus" for 192.168.80.1 at 2022-06-29 20:20:58 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#calculate as HTML
+  Parameters: {"destination1"=>"paris", "destination2"=>"marseille", "vehicule"=>"Bus"}
+Completed 500 Internal Server Error in 1140ms (Allocations: 4014)
+
+
+  
+NoMethodError (undefined method `*' for nil:NilClass
+
+        @consommation *= 0.19
+                      ^):
+  
+app/controllers/pages_controller.rb:43:in `calculate'
+Started GET "/index" for 192.168.80.1 at 2022-06-29 20:22:18 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 801)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 132ms
+Built at: 06/29/2022 8:22:20 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1489.7ms | Allocations: 5524)
+Completed 200 OK in 1493ms (Views: 1491.4ms | Allocations: 6862)
+
+
+Started GET "/calculate?destination1=paris&destination2=lille&vehicule=Bus" for 192.168.80.1 at 2022-06-29 20:22:29 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#calculate as HTML
+  Parameters: {"destination1"=>"paris", "destination2"=>"lille", "vehicule"=>"Bus"}
+Completed 500 Internal Server Error in 472ms (Allocations: 4026)
+
+
+  
+NoMethodError (undefined method `*' for nil:NilClass
+
+        @consommation *= 0.19
+                      ^):
+  
+app/controllers/pages_controller.rb:43:in `calculate'
+Started GET "/calculate?destination1=paris&destination2=lille&vehicule=Bus" for 192.168.80.1 at 2022-06-29 20:22:45 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#calculate as HTML
+  Parameters: {"destination1"=>"paris", "destination2"=>"lille", "vehicule"=>"Bus"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 557)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 108ms
+Built at: 06/29/2022 8:22:48 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1460.4ms | Allocations: 5104)
+Completed 200 OK in 2201ms (Views: 1462.0ms | Allocations: 8333)
+
+
+Started GET "/calculate?destination1=paris&destination2=lille&vehicule=Bus" for 192.168.80.1 at 2022-06-29 20:23:16 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#calculate as HTML
+  Parameters: {"destination1"=>"paris", "destination2"=>"lille", "vehicule"=>"Bus"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 794)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 108ms
+Built at: 06/29/2022 8:23:18 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1482.4ms | Allocations: 5507)
+Completed 200 OK in 1832ms (Views: 1484.7ms | Allocations: 8986)
+
+
+Started GET "/calculate?destination1=paris&destination2=lille&vehicule=Bus" for 192.168.80.1 at 2022-06-29 20:26:30 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#calculate as HTML
+  Parameters: {"destination1"=>"paris", "destination2"=>"lille", "vehicule"=>"Bus"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 801)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 128ms
+Built at: 06/29/2022 8:26:32 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1539.6ms | Allocations: 5492)
+Completed 200 OK in 1945ms (Views: 1541.6ms | Allocations: 9137)
+
+
+Started GET "/calculate?destination1=paris&destination2=lille&vehicule=Bus" for 192.168.80.1 at 2022-06-29 20:26:35 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#calculate as HTML
+  Parameters: {"destination1"=>"paris", "destination2"=>"lille", "vehicule"=>"Bus"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 464)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 115ms
+Built at: 06/29/2022 8:26:37 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1451.1ms | Allocations: 4772)
+Completed 200 OK in 1850ms (Views: 1451.6ms | Allocations: 7639)
+
+
+Started GET "/calculate?destination1=paris&destination2=lille&vehicule=Bus" for 192.168.80.1 at 2022-06-29 20:26:44 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#calculate as HTML
+  Parameters: {"destination1"=>"paris", "destination2"=>"lille", "vehicule"=>"Bus"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 464)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 105ms
+Built at: 06/29/2022 8:26:46 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1406.7ms | Allocations: 4772)
+Completed 200 OK in 1767ms (Views: 1408.3ms | Allocations: 7247)
+
+
+Started GET "/calculate?destination1=paris&destination2=lille&vehicule=Bus" for 192.168.80.1 at 2022-06-29 20:27:02 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#calculate as HTML
+  Parameters: {"destination1"=>"paris", "destination2"=>"lille", "vehicule"=>"Bus"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 9.3ms | Allocations: 4000)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 4082)
+Completed 500 Internal Server Error in 408ms (Allocations: 7358)
+
+
+  
+ActionView::Template::Error (uninitialized class variable @@calc in #<Class:0x00007f53a14679a8>):
+    25: 
+    26:             <div>
+    27:                 <p> Distance total entre <%= session[:destination1] %> et <%= session[:destination2] %> : <%= session[:distance] %> </p>
+    28:                 <h1> <%= @@calc %> </h1>
+    29: 
+    30:             </div>
+    31: 
+  
+app/views/pages/index.html.erb:28
+app/controllers/pages_controller.rb:43:in `calculate'
+Started GET "/calculate?destination1=paris&destination2=lille&vehicule=Bus" for 192.168.80.1 at 2022-06-29 20:27:32 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#calculate as HTML
+  Parameters: {"destination1"=>"paris", "destination2"=>"lille", "vehicule"=>"Bus"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 3737)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 3819)
+Completed 500 Internal Server Error in 346ms (Allocations: 7023)
+
+
+  
+ActionView::Template::Error (uninitialized class variable @@calc in #<Class:0x00007f53a14679a8>):
+    25: 
+    26:             <div>
+    27:                 <p> Distance total entre <%= session[:destination1] %> et <%= session[:destination2] %> : <%= session[:distance] %> </p>
+    28:                 <h1> <%= @@calc %> </h1>
+    29: 
+    30:             </div>
+    31: 
+  
+app/views/pages/index.html.erb:28
+app/controllers/pages_controller.rb:45:in `calculate'
+Started GET "/calculate?destination1=paris&destination2=lille&vehicule=Bus" for 192.168.80.1 at 2022-06-29 20:28:36 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#calculate as HTML
+  Parameters: {"destination1"=>"paris", "destination2"=>"lille", "vehicule"=>"Bus"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 802)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 111ms
+Built at: 06/29/2022 8:28:38 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1450.1ms | Allocations: 5500)
+Completed 200 OK in 1837ms (Views: 1453.1ms | Allocations: 9028)
+
+
+Started GET "/index" for 192.168.80.1 at 2022-06-29 20:28:49 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 464)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 137ms
+Built at: 06/29/2022 8:28:51 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1600.1ms | Allocations: 4804)
+Completed 200 OK in 1603ms (Views: 1602.1ms | Allocations: 5236)
+
+
+Started GET "/calculate?destination1=paris&destination2=lille&vehicule=Bus" for 192.168.80.1 at 2022-06-29 20:29:01 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#calculate as HTML
+  Parameters: {"destination1"=>"paris", "destination2"=>"lille", "vehicule"=>"Bus"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 465)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 110ms
+Built at: 06/29/2022 8:29:03 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1423.1ms | Allocations: 4769)
+Completed 200 OK in 1771ms (Views: 1423.6ms | Allocations: 7682)
+
+
+Started GET "/calculate?destination1=paris&destination2=lille&vehicule=Bus" for 192.168.80.1 at 2022-06-29 20:29:17 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#calculate as HTML
+  Parameters: {"destination1"=>"paris", "destination2"=>"lille", "vehicule"=>"Bus"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 793)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 115ms
+Built at: 06/29/2022 8:29:18 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1470.2ms | Allocations: 5499)
+Completed 200 OK in 1934ms (Views: 1474.8ms | Allocations: 9032)
+
+
+Started GET "/calculate?destination1=paris&destination2=lille&vehicule=Bus" for 192.168.80.1 at 2022-06-29 20:33:12 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#calculate as HTML
+  Parameters: {"destination1"=>"paris", "destination2"=>"lille", "vehicule"=>"Bus"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 792)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 111ms
+Built at: 06/29/2022 8:33:14 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1574.1ms | Allocations: 5503)
+Completed 200 OK in 2033ms (Views: 1577.3ms | Allocations: 9133)
+
+
+Started GET "/calculate?destination1=paris&destination2=lille&vehicule=Bus" for 192.168.80.1 at 2022-06-29 20:34:21 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#calculate as HTML
+  Parameters: {"destination1"=>"paris", "destination2"=>"lille", "vehicule"=>"Bus"}
+Completed 500 Internal Server Error in 409ms (Allocations: 3934)
+
+
+  
+NoMethodError (undefined method `*' for :distance:Symbol
+
+        @consommation = (@calc)*0.9
+                               ^):
+  
+app/controllers/pages_controller.rb:42:in `calculate'
+Started GET "/calculate?destination1=paris&destination2=lille&vehicule=Bus" for 192.168.80.1 at 2022-06-29 20:35:47 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#calculate as HTML
+  Parameters: {"destination1"=>"paris", "destination2"=>"lille", "vehicule"=>"Bus"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 558)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 117ms
+Built at: 06/29/2022 8:35:49 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1473.4ms | Allocations: 5084)
+Completed 200 OK in 1877ms (Views: 1474.6ms | Allocations: 8442)
+
+
+Started GET "/calculate?destination1=paris&destination2=lille&vehicule=Bus" for 192.168.80.1 at 2022-06-29 20:35:59 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#calculate as HTML
+  Parameters: {"destination1"=>"paris", "destination2"=>"lille", "vehicule"=>"Bus"}
+Completed 500 Internal Server Error in 303ms (Allocations: 4145)
+
+
+  
+NoMethodError (undefined method `*' for nil:NilClass
+
+        @consommation = @distance*0.9
+                                 ^):
+  
+app/controllers/pages_controller.rb:40:in `calculate'
+Started GET "/calculate?destination1=paris&destination2=lille&vehicule=Bus" for 192.168.80.1 at 2022-06-29 20:36:03 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#calculate as HTML
+  Parameters: {"destination1"=>"paris", "destination2"=>"lille", "vehicule"=>"Bus"}
+Completed 500 Internal Server Error in 372ms (Allocations: 3768)
+
+
+  
+NoMethodError (undefined method `*' for nil:NilClass
+
+        @consommation = @distance*0.9
+                                 ^):
+  
+app/controllers/pages_controller.rb:40:in `calculate'
+Started GET "/calculate?destination1=paris&destination2=lille&vehicule=Bus" for 192.168.80.1 at 2022-06-29 20:36:38 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#calculate as HTML
+  Parameters: {"destination1"=>"paris", "destination2"=>"lille", "vehicule"=>"Bus"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 558)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 115ms
+Built at: 06/29/2022 8:36:40 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1462.3ms | Allocations: 5084)
+Completed 200 OK in 1897ms (Views: 1464.2ms | Allocations: 8429)
+
+
+Started GET "/index" for 192.168.80.1 at 2022-06-29 20:37:16 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 862)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 127ms
+Built at: 06/29/2022 8:37:18 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1549.5ms | Allocations: 5592)
+Completed 200 OK in 1558ms (Views: 1556.6ms | Allocations: 6825)
+
+
+Started GET "/index" for 192.168.80.1 at 2022-06-29 20:37:37 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 792)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 118ms
+Built at: 06/29/2022 8:37:39 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1616.4ms | Allocations: 5524)
+Completed 200 OK in 1624ms (Views: 1621.6ms | Allocations: 6717)
+
+
+Started GET "/index" for 192.168.80.1 at 2022-06-29 20:38:32 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 559)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 107ms
+Built at: 06/29/2022 8:38:34 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1469.2ms | Allocations: 5102)
+Completed 200 OK in 1471ms (Views: 1470.5ms | Allocations: 5858)
+
+
+Started GET "/index" for 192.168.80.1 at 2022-06-29 20:43:50 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 467)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 113ms
+Built at: 06/29/2022 8:43:52 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1425.3ms | Allocations: 4803)
+Completed 200 OK in 1428ms (Views: 1426.9ms | Allocations: 5231)
+
+
+Started GET "/calculate?destination1=paris&destination2=marseille&vehicule=Bus" for 192.168.80.1 at 2022-06-29 20:44:05 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#calculate as HTML
+  Parameters: {"destination1"=>"paris", "destination2"=>"marseille", "vehicule"=>"Bus"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 466)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 107ms
+Built at: 06/29/2022 8:44:07 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1382.4ms | Allocations: 4774)
+Completed 200 OK in 2406ms (Views: 1383.1ms | Allocations: 7515)
+
+
+Started GET "/calculate?destination1=paris&destination2=marseille&vehicule=Bus" for 192.168.80.1 at 2022-06-29 20:44:39 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#calculate as HTML
+  Parameters: {"destination1"=>"paris", "destination2"=>"marseille", "vehicule"=>"Bus"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 559)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 116ms
+Built at: 06/29/2022 8:44:41 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1388.6ms | Allocations: 5072)
+Completed 200 OK in 1824ms (Views: 1390.2ms | Allocations: 8258)
+
+
+Started GET "/calculate?destination1=paris&destination2=marseille&vehicule=Bus" for 192.168.80.1 at 2022-06-29 20:45:47 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#calculate as HTML
+  Parameters: {"destination1"=>"paris", "destination2"=>"marseille", "vehicule"=>"Bus"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 558)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 102ms
+Built at: 06/29/2022 8:45:50 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1306.1ms | Allocations: 5762)
+Completed 200 OK in 2393ms (Views: 1312.2ms | Allocations: 9064)
+
+
+Started GET "/calculate?destination1=paris&destination2=marseille&vehicule=Bus" for 192.168.80.1 at 2022-06-29 20:47:55 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#calculate as HTML
+  Parameters: {"destination1"=>"paris", "destination2"=>"marseille", "vehicule"=>"Bus"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 558)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 100ms
+Built at: 06/29/2022 8:47:57 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1315.9ms | Allocations: 5080)
+Completed 200 OK in 2188ms (Views: 1317.9ms | Allocations: 8205)
+
+
+Started GET "/index" for 192.168.80.1 at 2022-06-29 20:52:45 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 559)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 109ms
+Built at: 06/29/2022 8:52:47 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1427.6ms | Allocations: 5097)
+Completed 200 OK in 1431ms (Views: 1429.1ms | Allocations: 5853)
+
+
+Started GET "/calculate?destination1=pari&destination2=marseille&vehicule=Voiture" for 192.168.80.1 at 2022-06-29 20:56:42 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#calculate as HTML
+  Parameters: {"destination1"=>"pari", "destination2"=>"marseille", "vehicule"=>"Voiture"}
+Completed 500 Internal Server Error in 715ms (Allocations: 2797)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass
+
+      distance = response["rows"][0]["elements"][0]["distance"]["text"]
+                                                               ^^^^^^^^):
+  
+app/controllers/pages_controller.rb:17:in `calculate'
+Started GET "/index" for 192.168.80.1 at 2022-06-29 20:57:00 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 467)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 103ms
+Built at: 06/29/2022 8:57:01 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1426.9ms | Allocations: 4803)
+Completed 200 OK in 1428ms (Views: 1427.4ms | Allocations: 5198)
+
+
+Started GET "/calculate?destination1=paris&destination2=marseille&vehicule=Bus" for 192.168.80.1 at 2022-06-29 21:11:06 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#calculate as HTML
+  Parameters: {"destination1"=>"paris", "destination2"=>"marseille", "vehicule"=>"Bus"}
+Completed 406 Not Acceptable in 442ms (Allocations: 3775)
+
+
+  
+ActionController::MissingExactTemplate (PagesController#calculate is missing a template for request formats: text/html):
+  
+actionpack (6.1.6) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.1.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (6.1.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.6) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.6) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.6) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.6) lib/active_support/callbacks.rb:117:in `block in run_callbacks'
+actiontext (6.1.6) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (6.1.6) lib/action_text/engine.rb:59:in `block (4 levels) in <class:Engine>'
+activesupport (6.1.6) lib/active_support/callbacks.rb:126:in `instance_exec'
+activesupport (6.1.6) lib/active_support/callbacks.rb:126:in `block in run_callbacks'
+activesupport (6.1.6) lib/active_support/callbacks.rb:137:in `run_callbacks'
+actionpack (6.1.6) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.6) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.6) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.6) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.6) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.6) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.6) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.6) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.6) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.6) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.6) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.6) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.6) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.6) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.6) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.6) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.6) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.6) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3.1) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3.1) lib/rack/etag.rb:27:in `call'
+rack (2.2.3.1) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3.1) lib/rack/head.rb:12:in `call'
+actionpack (6.1.6) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.6) lib/action_dispatch/http/content_security_policy.rb:19:in `call'
+rack (2.2.3.1) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3.1) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.6) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.6) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.6) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.6) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.6) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.6) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.6) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.6) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.6) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.6) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3.1) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3.1) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.6) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3.1) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.6) lib/action_dispatch/middleware/host_authorization.rb:148:in `call'
+rack-mini-profiler (2.3.4) lib/mini_profiler/profiler.rb:393:in `call'
+webpacker (3.6.0) lib/webpacker/dev_server_proxy.rb:22:in `perform_request'
+rack-proxy (0.7.2) lib/rack/proxy.rb:67:in `call'
+railties (6.1.6) lib/rails/engine.rb:539:in `call'
+puma (5.6.4) lib/puma/configuration.rb:252:in `call'
+puma (5.6.4) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.4) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.4) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.4) lib/puma/server.rb:441:in `process_client'
+puma (5.6.4) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/index" for 192.168.80.1 at 2022-06-29 21:11:14 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 806)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 95ms
+Built at: 06/29/2022 9:11:16 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1243.6ms | Allocations: 5550)
+Completed 200 OK in 1247ms (Views: 1245.9ms | Allocations: 6739)
+
+
+Started GET "/calculate?destination1=paris&destination2=marseille&vehicule=Voiture" for 192.168.80.1 at 2022-06-29 21:11:33 +0000
+Cannot render console from 192.168.80.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#calculate as HTML
+  Parameters: {"destination1"=>"paris", "destination2"=>"marseille", "vehicule"=>"Voiture"}
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 466)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+
+Hash: 4e8b1492ba2bb48bc2f1
+Version: webpack 4.46.0
+Time: 93ms
+Built at: 06/29/2022 9:11:34 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48b8f81eec98a49aa86f.js   7.25 KiB  application  [emitted] [immutable]  application
+js/application-48b8f81eec98a49aa86f.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48b8f81eec98a49aa86f.js js/application-48b8f81eec98a49aa86f.js.map
+[./app/javascript/packs/application.js] 3.35 KiB {application} [not cacheable] [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+Error: Cannot find module 'babel-core'
+Require stack:
+- /Rails_project/node_modules/babel-loader/lib/index.js
+- /Rails_project/node_modules/loader-runner/lib/loadLoader.js
+- /Rails_project/node_modules/loader-runner/lib/LoaderRunner.js
+- /Rails_project/node_modules/webpack/lib/NormalModule.js
+- /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js
+- /Rails_project/node_modules/webpack/lib/Compiler.js
+- /Rails_project/node_modules/webpack/lib/webpack.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/validate-options.js
+- /Rails_project/node_modules/webpack-cli/bin/utils/convert-argv.js
+- /Rails_project/node_modules/webpack-cli/bin/cli.js
+- /Rails_project/node_modules/webpack/bin/webpack.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/Rails_project/node_modules/babel-loader/lib/index.js:4:13)
+    at Module._compile (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (/Rails_project/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at loadLoader (/Rails_project/node_modules/loader-runner/lib/loadLoader.js:18:17)
+    at iteratePitchingLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Rails_project/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+    at NormalModule.doBuild (/Rails_project/node_modules/webpack/lib/NormalModule.js:295:3)
+    at NormalModule.build (/Rails_project/node_modules/webpack/lib/NormalModule.js:446:15)
+    at Compilation.buildModule (/Rails_project/node_modules/webpack/lib/Compilation.js:739:10)
+    at /Rails_project/node_modules/webpack/lib/Compilation.js:1111:12
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:409:6
+    at /Rails_project/node_modules/webpack/lib/NormalModuleFactory.js:155:13
+    at eval (eval at create (/Rails_project/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:12:1)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:178:9
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:125:7
+    at CaseSensitivePathsPlugin.fileExistsWithCase (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:95:5)
+    at /Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:118:10
+    at Array.<anonymous> (/Rails_project/node_modules/case-sensitive-paths-webpack-plugin/index.js:72:5)
+    at Storage.finished (/Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:55:16)
+    at /Rails_project/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:91:9
+
+  Rendered layout layouts/application.html.erb (Duration: 1225.6ms | Allocations: 4778)
+Completed 200 OK in 1715ms (Views: 1226.4ms | Allocations: 7499)
+
+
