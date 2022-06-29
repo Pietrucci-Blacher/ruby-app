@@ -1,7 +1,7 @@
 FROM ruby:3.1.2
 
 RUN apt-get update -qq && apt-get install -y nodejs npm
-RUN npm i -g yarn && yarn
+RUN npm i -g yarn && yarn install
 
 RUN mkdir /Rails_project
 WORKDIR /Rails_project
