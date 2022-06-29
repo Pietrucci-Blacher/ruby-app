@@ -19,10 +19,10 @@
                 <%= select_tag "vehicule", options_for_select([ "TGV", 
                 "Bus", "Voiture électrique", "Voiture", "Scooter", "Moto", "Avion" ]), prompt: 'Choisissez votre véhicule' %>
 
-              <div>
-
+              </div>
               <input type="submit" value="Submit">
             </form>
+      </div>
 
             <div>
                 <p> Distance total entre <%= session[:destination1] %> et <%= session[:destination2] %> : <%= session[:distance] %> </p>
