@@ -11,15 +11,15 @@
   <body>
       <div class="container">
             <form action="/calculate" method="get">
-              <label class="form-label">Votre point de départ</label>
-              <input type="text" name="destination1" placeholder="Votre point de départ"> </br>
-              <label class="form-label">Votre point de départ</label>
+              <label class="form-label">Votre point de départ: </label>
+              <input type="text" name="destination1" placeholder="Votre point de départ">
+              <label class="form-label">Votre point de départ: </label>
               <input type="text" name="destination2" placeholder="Votre point d'arrivée">
 
               <div>
                 <%= label_tag "Votre véhicule: "%>
                 <%= select_tag "vehicule", options_for_select([ "TGV", 
-                "Bus", "Voiture électrique", "Voiture", "Scooter", "Moto", "Avion" ]), prompt: 'Choisissez votre véhicule' %>
+                "Bus", "Voiture électrique", "Voiture", "Scooter", "Moto", "Avion" ]), prompt: 'Choisissez votre véhicule', class: 'form-control' %>
               </div>
 
               <input type="submit" value="Submit">
