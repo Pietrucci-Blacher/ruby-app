@@ -5,31 +5,34 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <%= csrf_meta_tags %>
   </head>
   <body>
       <div class="container">
             <form action="/calculate" method="get">
+              <label class="form-label">Votre point de départ: </label>
               <input type="text" name="destination1" placeholder="Votre point de départ">
+              <label class="form-label">Votre point de départ: </label>
               <input type="text" name="destination2" placeholder="Votre point d'arrivée">
 
               <div>
                 <%= label_tag "Votre véhicule: "%>
-
                 <%= select_tag "vehicule", options_for_select([ "TGV", 
-                "Bus", "Voiture électrique", "Voiture", "Scooter", "Moto", "Avion" ]), prompt: 'Choisissez votre véhicule' %>
-
+                "Bus", "Voiture électrique", "Voiture", "Scooter", "Moto", "Avion" ]), prompt: 'Choisissez votre véhicule', class: 'form-control' %>
               </div>
+
               <input type="submit" value="Submit">
             </form>
-      </div>
 
             <div>
                 <p> Distance total entre <%= session[:destination1] %> et <%= session[:destination2] %> : <%= session[:distance] %> </p>
-                <%= session[:consommation] %>
+                
+                <% if @consommation != nil %>
+                  <p> Votre consommation sera de: <%= @consommation %> kgCO2e</p>
+                <% end %>
             </div>
 
-            <%= session.inspect %>
       </div>
 
   </body>

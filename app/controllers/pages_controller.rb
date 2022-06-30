@@ -8,6 +8,7 @@ class PagesController < ApplicationController
   end
 
   def calculate
+
    #Check if post request is not empty and if it is not empty then do the calculation
    if params[:destination1] != "" && params[:destination2] != ""
      #Then call google api with HTTP to calculate the distance between the two destinations
@@ -26,16 +27,31 @@ class PagesController < ApplicationController
       session[:destination1] = params[:destination1]
       session[:destination2] = params[:destination2]
 
-      #if params[:vehicule] == "Voiture" 
-       #session[:consommation] = (session[:distance] * 0.19)
-      #end
-
       case params[:vehicule]
-      when "Voiture"
-        session[:consommation] = (session[:distance] * 0.19)
-      end
-      #redirect_to :action => 'index'
+      when "TGV"
+        @consommation = distance.to_i*0.002
+        render 'pages/index'
 
+      when "Voiture électrique"
+        @consommation = distance.to_i*0.02
+        render 'pages/index'
+
+      when "Voiture"
+        @consommation = distance.to_i*0.19
+        render 'pages/index'
+
+      when "Scooter"
+        @consommation = distance.to_i*0.062
+        render 'pages/index'
+
+      when "Moto"
+        @consommation = distance.to_i*0.17
+        render 'pages/index'
+
+      when "Avion"
+        @consommation = distance.to_i*0.13
+        render 'pages/index'
+      end
     end
 
   end
