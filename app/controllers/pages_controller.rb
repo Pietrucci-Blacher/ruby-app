@@ -32,6 +32,10 @@ class PagesController < ApplicationController
         @consommation = distance.to_i*0.002
         render 'pages/index'
 
+      when "Bus"
+        @consommation = distance.to_i*0.1
+        render 'pages/index'
+
       when "Voiture électrique"
         @consommation = distance.to_i*0.02
         render 'pages/index'
