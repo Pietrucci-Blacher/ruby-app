@@ -11,10 +11,17 @@
   <body>
       <div class="container">
             <form action="/calculate" method="get">
-              <label class="form-label">Votre point de départ: </label>
-              <input type="text" name="destination1" placeholder="Votre point de départ">
-              <label class="form-label">Votre point de départ: </label>
-              <input type="text" name="destination2" placeholder="Votre point d'arrivée">
+            <div class="row">
+              <div class="col-6">
+                <label class="form-label">Votre point de départ: </label>
+                <input type="text" name="destination1" placeholder="Votre point de départ">
+              </div>
+
+              <div class="col-6">
+                <label class="form-label">Votre point de départ: </label>
+                <input type="text" name="destination2" placeholder="Votre point d'arrivée">
+              </div>
+            </div>
 
               <div>
                 <%= label_tag "Votre véhicule: "%>
