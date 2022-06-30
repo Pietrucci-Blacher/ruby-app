@@ -232,15 +232,19 @@ DEPENDENCIES
   httparty
   jbuilder (~> 2.7)
   listen (~> 3.3)
+  mail
   mysql2 (~> 0.5.3)
   net-smtp
   psych (< 4)
   puma (~> 5.0)
+  rack
   rack-mini-profiler (~> 2.0)
   rails (~> 6.1.4, >= 6.1.4.6)
+  railties
   sass-rails (>= 6)
   selenium-webdriver
   spring
+  thor
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 4.1.0)
