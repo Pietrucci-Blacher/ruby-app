@@ -30,6 +30,7 @@ gem 'figaro', '~> 1.0'
 # gem 'image_processing', '~> 1.2'
 
 gem 'httparty'
+gem 'net-smtp'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
