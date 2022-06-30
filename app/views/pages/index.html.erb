@@ -39,7 +39,10 @@
             </form>
 
             <div>
-                <p> Distance total entre <%= session[:destination1] %> et <%= session[:destination2] %> : <%= session[:distance] %> </p>
+
+                <% if @distance != nil %>
+                  <p> Distance total entre <%= @destination1 %> et <%= @destination2 %> : <%= @distance %> </p>
+                <% end %>
 
                 <% if @consommation != nil %>
                   <p> Votre consommation sera de: <%= @consommation %> kgCO2e</p>

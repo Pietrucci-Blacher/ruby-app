@@ -16,16 +16,16 @@ class PagesController < ApplicationController
       #Then parse the response to get the distance and time
       distance = response["rows"][0]["elements"][0]["distance"]["text"]
       #Then store the distance and time in the session
-      session[:distance] = distance
+      @distance = distance
       #Then use this API with HTTP https://api.monimpacttransport.fr/beta/getEmissions to get the emissions of the two destinations
       response = HTTParty.get("https://api.monimpacttransport.fr/beta/getEmissions?origin=#{params[:destination1]}&destination=#{params[:destination2]}")
       #Then parse the response to get the emissions
       emissions = response["emissions"]
       #Then store the emissions in the session
-      session[:emissions] = emissions
+      @emissions = emissions
 
-      session[:destination1] = params[:destination1]
-      session[:destination2] = params[:destination2]
+      @destination1 = params[:destination1]
+      @destination2 = params[:destination2]
 
       case params[:vehicule]
       when "TGV"
