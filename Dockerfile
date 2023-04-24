@@ -1,7 +1,7 @@
 FROM ruby:3-alpine
 
 RUN apk add --no-cache nodejs npm
-RUN apk add --no-cache build-base ruby-dev yaml-dev
+RUN apk add --no-cache build-base ruby-dev yaml-dev mariadb-dev
 RUN npm i -g yarn && yarn install
 
 RUN mkdir /Rails_project
