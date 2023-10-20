@@ -5,7 +5,7 @@ ruby '3.2.2'
 
 gem 'rails', '~> 7.0.2'
 gem 'mysql2', '~> 0.5.4'
-gem 'puma', '~> 6.0'
+gem 'puma', '~> 6.3'
 gem 'webpacker', '~> 5.4'
 gem 'turbolinks', '~> 5.2'
 gem 'jbuilder', '~> 2.11'
